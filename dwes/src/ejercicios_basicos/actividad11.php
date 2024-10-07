@@ -3,12 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desarrollo web en Entorno Servidor web </title>
+    <title>Ejercicio 11</title>
 </head>
 <body>
+
+<?php 
+
+$colores = array ("rojo", "verde","azul");
+
+
+$colores[2] = "morado";
+print_r($colores);
+
+
+
+?>
+
+
+
     
-    <h1> Desarrollo web en Entorno Servidor </h1>
-
 </body>
-
 </html>
